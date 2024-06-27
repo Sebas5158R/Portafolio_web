@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Experiences", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -72,130 +72,130 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "#",
+      title: "Spotify clone to listen to music",
+      des: "Spotify web clone that uses Astro Framework with Svelte and React components for the interface and Tailwind CSS.",
+      img: "/copy-spotify-page.png",
+      iconLists: ["/technologies/astro.svg", "re.svg", "/ts.svg", "svelte.svg", "/tail.svg",],
+      link: "https://github.com/Sebas5158R/Spotify-clone",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "#",
+      title: "Tesla landing page clone",
+      des: "A clone of the Tesla landing page using Next.js with TypeScript and Tailwind CSS for styles.",
+      img: "/copy-tesla-page.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://github.com/Sebas5158R/copia-landing-tesla",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "#",
+      title: "Digital Pocket App",
+      des: "Digital pocket simulation where Daviplata and Nequi are simulated using native Java.",
+      img: "/BolsilloDigital.png",
+      iconLists: ["/technologies/java.svg", "/html.svg", "/css.svg"],
+      link: "/https://github.com/Sebas5158R/APLICACION_CRUD_MVC_CON_MYSQL_Y_JAVA",
     },
     {
       id: 4,
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "#",
     },
   ];
   
-  export const testimonials = [
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-  ];
-  
-  export const companies = [
+  export const technologies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "Java",
+      logo: "/technologies/java.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "Python.js",
+      logo: "/technologies/python.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      name: "JavaScript",
+      logo: "/technologies/javascript.svg",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      name: "TypeScript",
+      logo: "/technologies/typescript.svg",
     },
     {
       id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      name: "Next.js",
+      logo: "/technologies/next-js.svg",
+    },
+    {
+      id: 6,
+      name: "Astro Framework",
+      logo: "/technologies/astro.svg",
+    },
+  ];
+
+  export const technologies2 = [
+    {
+      id: 1,
+      name: "Tailwind CSS",
+      logo: "/technologies/tailwindcss.svg",
+    },
+    {
+      id: 2,
+      name: "Spring Boot",
+      logo: "/technologies/spring.svg",
+    },
+    {
+      id: 3,
+      name: "Flask",
+      logo: "/technologies/flask.svg",
+    },
+    {
+      id: 5,
+      name: "MySQL",
+      logo: "/technologies/mysql.svg",
+    },
+    {
+      id: 5,
+      name: "PostgreSQL",
+      logo: "/technologies/postgresql.svg",
+    },
+    {
+      id: 6,
+      name: "MongoDB",
+      logo: "/technologies/mongodb.svg",
     },
   ];
   
-  export const workExperience = [
+  export const studyProcess = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Self-taught Developer",
+      desc: "Learning new frontend technologies such as Astro Framework and Next.js.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Backend Developer Intern",
+      desc: "Designed and developed the project framework called 'Olimpo' with spring boot JPA and PostgreSQL.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Student of a technologist",
+      desc: "I studied systems analysis and development at SENA where I managed to develop a project with MVC architecture in PYTHON with the FLASK framework.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Student of a technical",
+      desc: "I studied mobile application development at SENA where I managed to develop a web store project in Ionic.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -205,13 +205,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Sebas5158R",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/sebastian-rivera-a9b10430a/",
     },
   ];
