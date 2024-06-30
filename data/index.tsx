@@ -92,15 +92,15 @@ export const navItems = [
       des: "Digital pocket simulation where Daviplata and Nequi are simulated using native Java.",
       img: "/BolsilloDigital.png",
       iconLists: ["/technologies/java.svg", "/html.svg", "/css.svg"],
-      link: "/https://github.com/Sebas5158R/APLICACION_CRUD_MVC_CON_MYSQL_Y_JAVA",
+      link: "https://github.com/Sebas5158R/APLICACION_CRUD_MVC_CON_MYSQL_Y_JAVA",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-      link: "#",
+      title: "Business Solutions",
+      des: "Project where you can create a company and offer services to users registered as clients.",
+      img: "/BusinessSolutions.png",
+      iconLists: ["/re.svg", "/redux.svg", "/tail.svg"],
+      link: "https://github.com/Sebas5158R/Prueba_tecnica_v2",
     },
   ];
   
