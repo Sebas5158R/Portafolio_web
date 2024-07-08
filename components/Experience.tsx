@@ -6,8 +6,8 @@ const Experience = () => {
   return (
     <div className='pb-20' id='experience'>
         <h1 className='heading'>
-            My
-            <span className='text-purple'> study process</span>
+            Mi proceso de
+            <span className='text-purple'> estudio y experiencia</span>
         </h1>
         <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>
             {studyProcess.map((card) => (

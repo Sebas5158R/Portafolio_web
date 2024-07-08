@@ -7,8 +7,8 @@ const RecentProjects = () => {
   return (
     <div className='py-20' id='projects'>
         <h1 className='heading'>
-            A small selection of {' '}
-            <span className='text-purple'>recent projects</span>
+            Algunos de los {' '}
+            <span className='text-purple'>proyectos que he realizado</span>
         </h1>
         <div className='flex flex-wrap items-center justify-center p-4 gap-x-24'>
             {projects.map(({ id, title, des, img, iconLists, link }) => (
@@ -38,7 +38,7 @@ const RecentProjects = () => {
                             </div>
                             <div className='flex justify-center items-center'>
                                 <a href={link} target='_blanck'>
-                                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Repository</p>
+                                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Comprobar repositorio</p>
                                 </a>
                                 <FaLocationArrow className='ms-3' color='#CBACF9' />
                             </div>

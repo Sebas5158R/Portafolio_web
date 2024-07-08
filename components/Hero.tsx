@@ -21,17 +21,17 @@ const Hero = () => {
             <div className='flex justify-center relative mb-20 z-10'>
                     <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                         <p className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                            Dynamic Web Magic with Next.js
+                            Magia web con Next.js
                         </p>
 
-                        <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Transforming Concepts into Seamless User Experiences' />
+                        <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Dar vida a las ideas con dominio completo' />
 
                         <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                            Hi, I&apos;m Sebastian, a Full Stack Developer based in Colombia.
+                            Hola, soy Sebastian, un desarrollador Full Stack radicado en Colombia.
                         </p>
 
                         <a href="#about">
-                            <MagicButton title='Show my work' icon={<FaLocationArrow />} position='right' />
+                            <MagicButton title='Acerca de mí' icon={<FaLocationArrow />} position='right' />
                         </a>
                     </div>
                 </div>

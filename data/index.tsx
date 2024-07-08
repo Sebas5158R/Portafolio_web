@@ -1,24 +1,24 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Experiences", link: "#experience" },
-    { name: "Contact", link: "#contact" },
+    { name: "Acerca de mí", link: "#about" },
+    { name: "Proyectos", link: "#projects" },
+    { name: "Experiencia", link: "#experience" },
+    { name: "Contactame", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Priorizo ​​la colaboración, fomentando la comunicación abierta.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/programming.svg",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Soy muy flexible con las comunicaciones de zona horaria.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Favoritas",
+      description: "Algunas de mis tecnologías",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Entusiasta de la tecnología con pasión por el desarrollo.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "En mis tiempos libres me gusta programar",
+      description: "La primicia interior",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "¿Quieres empezar un proyecto juntos?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -72,16 +72,16 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Spotify clone to listen to music",
-      des: "Spotify web clone that uses Astro Framework with Svelte and React components for the interface and Tailwind CSS.",
+      title: "Spotify Clon",
+      des: "Clon web de Spotify, realizado para practicar una tecnologia nueva en el mercado llamada Astro.",
       img: "/copy-spotify-page.png",
       iconLists: ["/technologies/astro.svg", "re.svg", "/ts.svg", "svelte.svg", "/tail.svg",],
       link: "https://github.com/Sebas5158R/Spotify-clone",
     },
     {
       id: 2,
-      title: "Tesla landing page clone",
-      des: "A clone of the Tesla landing page using Next.js with TypeScript and Tailwind CSS for styles.",
+      title: "Tesla página de inicio clon",
+      des: "Un clon de la página de inicio de Tesla usando Next.js con TypeScript y Tailwind CSS para estilos.",
       img: "/copy-tesla-page.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/Sebas5158R/copia-landing-tesla",
@@ -89,7 +89,7 @@ export const navItems = [
     {
       id: 3,
       title: "Digital Pocket App",
-      des: "Digital pocket simulation where Daviplata and Nequi are simulated using native Java.",
+      des: "Simulación de bolsillo digital donde se simulan Daviplata y Nequi usando Java nativo.",
       img: "/BolsilloDigital.png",
       iconLists: ["/technologies/java.svg", "/html.svg", "/css.svg"],
       link: "https://github.com/Sebas5158R/APLICACION_CRUD_MVC_CON_MYSQL_Y_JAVA",
@@ -97,9 +97,9 @@ export const navItems = [
     {
       id: 4,
       title: "Business Solutions",
-      des: "Project where you can create a company and offer services to users registered as clients.",
+      des: "Proyecto donde se puede crear una empresa y ofrecer servicios a los usuarios registrados como clientes.",
       img: "/BusinessSolutions.png",
-      iconLists: ["/re.svg", "/redux.svg", "/tail.svg"],
+      iconLists: ["/technologies/java.svg", "/re.svg", "/redux.svg", "/tail.svg"],
       link: "https://github.com/Sebas5158R/Prueba_tecnica_v2",
     },
   ];
@@ -173,29 +173,29 @@ export const navItems = [
   export const studyProcess = [
     {
       id: 1,
-      title: "Self-taught Developer",
-      desc: "Learning new frontend technologies such as Astro Framework and Next.js.",
+      title: "Desarrollador autodidacta",
+      desc: "Aprendiendo nuevas tecnologías frontend como Astro Framework y Next.js.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Backend Developer Intern",
-      desc: "Designed and developed the project framework called 'Olimpo' with spring boot JPA and PostgreSQL.",
+      title: "Practicante Desarrollador Backend",
+      desc: "Con mi equipo de trabajo diseñamos y desarrollamos un proyecto con Spring Boot JPA y PostgreSQL.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Student of a technologist",
-      desc: "I studied systems analysis and development at SENA where I managed to develop a project with MVC architecture in PYTHON with the FLASK framework.",
+      title: "Estudiante de un tecnólogo",
+      desc: "Estudié análisis y desarrollo de software en el SENA donde logré desarrollar un proyecto con arquitectura MVC en PYTHON con el framework FLASK.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Student of a technical",
-      desc: "I studied mobile application development at SENA where I managed to develop a web store project in Ionic.",
+      title: "Estudiante de un técnico",
+      desc: "Estudié desarrollo de aplicaciones móviles en el SENA donde logré desarrollar un proyecto de tienda web en Ionic.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },

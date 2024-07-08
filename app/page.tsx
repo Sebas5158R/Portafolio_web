@@ -18,7 +18,6 @@ export default function Home() {
         <RecentProjects />
         <Technologies />
         <Experience />
-        <Approach />
         <Footer />
       </div>
     </main>
